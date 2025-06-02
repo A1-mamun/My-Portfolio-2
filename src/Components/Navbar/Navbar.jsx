@@ -134,15 +134,15 @@ const Navbar = () => {
             Hello, I&apos;m
           </p>
           <h1 className="text-[44px] font-bold ">Md. Abdullah Al Mamun</h1>
-          <h4 className="text-2xl font-semibold ">Jnr. Frontend Developer</h4>
+          <h4 className="text-2xl font-semibold ">Full Stack Developer</h4>
           <p className="text-base font-medium w-80 text-slate-400">
-            I am a frontend focused <strong className="uppercase">mern </strong>{" "}
-            stack developer. I build pixel-perfect, engaging, and accessible
-            digital experiences.
+            I am a full stack <strong className="uppercase">mern </strong> stack
+            developer. I build pixel-perfect, engaging, and accessible digital
+            experiences.
           </p>
           <div className="flex gap-5">
             <a
-              href="https://drive.google.com/file/d/1tlP5SbWkSI_39VX5VAasjR9XLQfQi6RV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BhjLK8QU6QAAYdkPP0XAkrxyO5j0q2v3/view?usp=sharing"
               target="_"
             >
               <button className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg   border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg ">

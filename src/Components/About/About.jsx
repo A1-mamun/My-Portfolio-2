@@ -27,17 +27,16 @@ const About = () => {
                 Md. Abdullah Al Mamun
               </h1>
               <h4 className="test-lg md:text-xl lg:text-2xl font-semibold ">
-                Jnr. Frontend Developer
+                Full Stack Developer
               </h4>
               <p className="text-xs md:text-sm lg:text-base font-medium w-80 text-slate-400">
-                I am a frontend focused{" "}
-                <strong className="uppercase">mern </strong> stack developer. I
-                build pixel-perfect, engaging, and accessible digital
-                experiences.
+                I am a full stack <strong className="uppercase">mern </strong>{" "}
+                stack developer. I build pixel-perfect, engaging, and accessible
+                digital experiences.
               </p>
               <div className="flex gap-5">
                 <a
-                  href="https://drive.google.com/file/d/12uWGdJhBwjnlcMPHf0vt_qA0OvGQb4FJ/view"
+                  href="https://drive.google.com/file/d/1BhjLK8QU6QAAYdkPP0XAkrxyO5j0q2v3/view?usp=sharing"
                   target="_"
                 >
                   <button className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg mt-2  border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg ">
@@ -59,14 +58,14 @@ const About = () => {
           </div>
           <div className="text-slate-400 flex-1">
             <p className="py-6 text-sm md:text-base lg:text-lg text-justify">
-              I am a <strong className="uppercase">front-end</strong> web
+              I am a <strong className="uppercase">full stack</strong> web
               developer currently studying at Rajshahi University of Engineering
               and Technology ( RUET ) in Rajshahi, Bangladesh. I am in my{" "}
               <strong>3rd year</strong> in the Department of{" "}
               <strong>Computer Science and Engineering</strong> . I work with
               the <strong>MERN</strong> stack environment and primarily use the{" "}
-              <strong>ReactJS</strong> framework to build{" "}
-              <strong>Dynamic</strong> and <strong>Responsive</strong> web
+              <strong>ReactJS</strong> and <strong>NextJS</strong> framework to
+              build <strong>Dynamic</strong> and <strong>Responsive</strong> web
               applications. Additionally, I am a <strong>Competitive</strong>{" "}
               programmer with some knowledge of C and C++ programming languages.
               My passion for coding drives me to continuously improve my skills
@@ -85,7 +84,7 @@ const About = () => {
             </h2>
             <h2 className="">
               <span className=" uppercase text-white mr-1">Designaion: </span>
-              Jnr. Frontend Developer ( <strong>MERN STACK</strong> )
+              Full Stack Developer ( <strong>MERN STACK</strong> )
             </h2>
             <h2 className="">
               <span className=" uppercase text-white mr-1">NATIONALITY: </span>{" "}
