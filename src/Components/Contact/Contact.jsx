@@ -16,7 +16,7 @@ const Contact = () => {
     <div id="contact" className="bg-slate-800 text-[#fff] mt-14 lg:hidden">
       <div className="container mx-auto flex flex-col md:flex-row gap-8 justify-around py-16 px-16">
         <div className="space-y-2 ">
-          <h2 className="w-full text-3xl md:text-4xl lg:text-5xl font-bold text-txt-color">
+          <h2 className="w-full lg:text-3xl xl:text-4xl 2xl:text-[44px] font-bold text-txt-color">
             Let&apos;s Connect!
           </h2>
           <h4 className="text-base md:text-lg lg:text-xl font-medium">

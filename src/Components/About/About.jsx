@@ -15,9 +15,9 @@ const About = () => {
     }
   };
   return (
-    <section id="about" className=" mt-28 lg:mt-20 pt-12 md:pt-16">
+    <section id="about" className=" mt-28 lg:mt-0 pt-12 md:pt-16 lg:pt-12">
       <div className="text-[#fff] space-y-4 md:space-y-7 lg:space-y-10">
-        <div className=" flex flex-col justify-between gap-10 lg:items-center">
+        <div className=" flex flex-col justify-between gap-10 lg:items-center border border-white">
           <div className="flex gap-10 flex-col md:flex-row justify-around items-center">
             <div className="space-y-2 md:space-y-3 lg:space-y-5 lg:hidden">
               <p className=" text-sm md:text-lg lg:text-xl  font-semibold">

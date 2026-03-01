@@ -25,7 +25,7 @@ const Navbar = () => {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.5 },
     );
 
     sections.forEach((section) => {
@@ -127,31 +127,35 @@ const Navbar = () => {
   );
 
   return (
-    <div className="h-screen sticky top-0  ">
-      <div className="h-full text-xl  text-white flex flex-col justify-around ">
-        <div className="space-y-5">
-          <p className=" text-sm md:text-lg lg:text-xl  font-semibold">
+    <div className="h-screen sticky top-0 border border-white ">
+      <div className="h-full text-xl text-white flex flex-col justify-around ">
+        <div className="lg:space-y-2 xl:space-y-3 2xl:space-y-5">
+          <p className="lg:text-base xl:tex-lg 2xl:text-xl  font-semibold">
             Hello, I&apos;m
           </p>
-          <h1 className="text-[44px] font-bold ">Md. Abdullah Al Mamun</h1>
-          <h4 className="text-2xl font-semibold ">Full Stack Developer</h4>
+          <h1 className="lg:text-3xl xl:text-4xl 2xl:text-[44px] font-bold">
+            Md. Abdullah Al Mamun
+          </h1>
+          <h4 className="lg:text-lg xl:text-xl 2xl:text-2xl font-semibold ">
+            Full Stack Developer
+          </h4>
           <p className="text-base font-medium w-80 text-slate-400">
             I am a full stack <strong className="uppercase">mern </strong> stack
             developer. I build pixel-perfect, engaging, and accessible digital
             experiences.
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 pt-3">
             <a
               href="https://drive.google.com/file/d/1BhjLK8QU6QAAYdkPP0XAkrxyO5j0q2v3/view?usp=sharing"
               target="_"
             >
-              <button className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg   border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg ">
+              <button className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg border-none font-bold flex items-center gap-3 uppercase bg-white hover:bg-slate-300 duration-200 text-[#000] lg:text-base 2xl:text-lg">
                 Resume <FaFileDownload className="text-xl animate-bounce" />
               </button>
             </a>
             <button
               onClick={() => scrollToSection("message")}
-              className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg    border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg "
+              className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg    border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] lg:text-base 2xl:text-lg"
             >
               Hire me <FaArrowTurnDown className="text-xl animate-bounce" />
             </button>
@@ -161,7 +165,7 @@ const Navbar = () => {
         {/* navigaors */}
         <div className="">
           <div className="w-full ">
-            <ul className=" text-lg ">{navLinks}</ul>
+            <ul className="lg:text-base xl:text-lg ">{navLinks}</ul>
           </div>
         </div>
         {/* Social links */}

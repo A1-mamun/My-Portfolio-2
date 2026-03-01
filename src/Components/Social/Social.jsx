@@ -14,34 +14,36 @@ const Social = () => {
   });
   return (
     <div>
-      <div className="space-y-2 ">
-        <h2 className="w-full text-3xl md:text-4xl lg:text-5xl font-bold text-txt-color">
+      <div className="lg:space-y-1 xl:space-y-2">
+        <h2 className="w-full lg:text-3xl xl:text-4xl 2xl:text-[44px] font-bold text-txt-color">
           Let&apos;s Connect!
         </h2>
-        <h4 className="text-base md:text-lg lg:text-xl font-medium">
+        <h4 className="lg:text-base xl:text-lg 2xl:text-xl font-medium">
           I&apos;m just a message away <span>{text}</span>
         </h4>
       </div>
-      <div className=" space-y-5">
+      <div className="lg:space-y-2 xl:space-y-3 2xl:space-y-5">
         <div className="flex items-center gap-3">
-          <MdEmail className="text-2xl md:text-3xl" />
-          <h3 className="text-base md:text-lg lg:text-xl">
+          <MdEmail className="lg:text-xl xl:text-2xl 2xl:text-3xl" />
+          <h3 className="lg:text-base xl:text-lg 2xl:text-xl">
             1154almamun@gmail.com
           </h3>
         </div>
         <div className="flex items-center gap-3">
-          <FaPhoneVolume className="text-2xl md:text-3xl" />
-          <h3 className="ttext-base md:text-lg lg:text-xl">+8801745093497</h3>
+          <FaPhoneVolume className="lg:text-xl xl:text-2xl 2xl:text-3xl" />
+          <h3 className="lg:text-base xl:text-lg 2xl:text-xl">
+            +8801745093497
+          </h3>
         </div>
         <div className="flex items-center gap-4">
           <a href="https://www.linkedin.com/in/a1-mamun" target="_blank">
-            <FaLinkedin className="text-2xl md:text-3xl" />
+            <FaLinkedin className="lg:text-2xl xl:text-3xl 2xl:text-4xl" />
           </a>
           <a href="https://github.com/A1-mamun" target="_blank">
-            <FaSquareGithub className="text-2xl md:text-3xl" />
+            <FaSquareGithub className="lg:text-2xl xl:text-3xl 2xl:text-4xl" />
           </a>
           <a href="https://www.facebook.com/A1Mamun178" target="_blank">
-            <FaSquareFacebook className="text-2xl md:text-3xl" />
+            <FaSquareFacebook className="lg:text-2xl xl:text-3xl 2xl:text-4xl" />
           </a>
         </div>
       </div>
