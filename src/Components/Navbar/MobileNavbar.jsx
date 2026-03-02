@@ -22,7 +22,7 @@ const MobileNavbar = () => {
           }
         });
       },
-      { threshold: 0.4 }
+      { threshold: 0.4 },
     );
 
     sections.forEach((section) => {
@@ -168,7 +168,7 @@ const MobileNavbar = () => {
   //     </>
   //   );
   return (
-    <div className=" fixed w-full z-10  ">
+    <div className=" fixed w-full z-10 bottom-0 ">
       <div className=" bg-slate-800 h-10 md:h-14  ">
         <ul className="flex justify-around items-center h-full">{navLinks}</ul>
       </div>

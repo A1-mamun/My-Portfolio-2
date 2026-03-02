@@ -127,7 +127,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="h-screen sticky top-0 border border-white ">
+    <div className="h-screen sticky top-0">
       <div className="h-full text-xl text-white flex flex-col justify-around ">
         <div className="lg:space-y-2 xl:space-y-3 2xl:space-y-5">
           <p className="lg:text-base xl:tex-lg 2xl:text-xl  font-semibold">

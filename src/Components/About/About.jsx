@@ -1,5 +1,5 @@
 import { FaFileDownload } from "react-icons/fa";
-import image from "../../assets/image/banner_img.jpg";
+import image from "../../assets/image/photo.jpeg";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { FaArrowTurnDown } from "react-icons/fa6";
 
@@ -15,10 +15,10 @@ const About = () => {
     }
   };
   return (
-    <section id="about" className=" mt-28 lg:mt-0 pt-12 md:pt-16 lg:pt-12">
+    <section id="about" className="mt-0 pt-12 md:pt-16 lg:pt-12">
       <div className="text-[#fff] space-y-4 md:space-y-7 lg:space-y-10">
-        <div className=" flex flex-col justify-between gap-10 lg:items-center border border-white">
-          <div className="flex gap-10 flex-col md:flex-row justify-around items-center">
+        <div className="flex flex-col justify-between gap-0 xl:gap-8 2xl:gap-10 lg:items-center">
+          <div className="flex gap-8 flex-col md:flex-row justify-around items-center">
             <div className="space-y-2 md:space-y-3 lg:space-y-5 lg:hidden">
               <p className=" text-sm md:text-lg lg:text-xl  font-semibold">
                 Hello, I&apos;m
@@ -39,25 +39,27 @@ const About = () => {
                   href="https://drive.google.com/file/d/1BhjLK8QU6QAAYdkPP0XAkrxyO5j0q2v3/view?usp=sharing"
                   target="_"
                 >
-                  <button className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg mt-2  border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg ">
-                    Resume <FaFileDownload className="text-xl animate-bounce" />
+                  <button className="px-3 py-[6px] rounded-md mt-2  border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg ">
+                    Resume{" "}
+                    <FaFileDownload className="text-base animate-bounce" />
                   </button>
                 </a>
                 <button
                   onClick={() => scrollToSection("message")}
-                  className="px-3 py-2 lg:px-5 lg:py-2 rounded-lg mt-2   border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg "
+                  className="px-3 py-[6px] rounded-md mt-2 border-none font-bold flex items-center gap-3 uppercase  bg-white hover:bg-slate-300 duration-200 text-[#000] text-sm md:text-base lg:text-lg "
                 >
-                  Hire me <FaArrowTurnDown className="text-xl animate-bounce" />
+                  Hire me{" "}
+                  <FaArrowTurnDown className="text-base animate-bounce" />
                 </button>
               </div>
             </div>
             <img
               src={image}
-              className="w-52 h-52 md:w-60 md:h-60 lg:w-80 lg:h-80 rounded-full shadow-2xl"
+              className="w-52 h-52 md:w-60 md:h-60 lg:w-80 lg:h-80 object-cover rounded-full shadow-2xl"
             />
           </div>
           <div className="text-slate-400 flex-1">
-            <p className="py-6 text-sm md:text-base lg:text-lg text-justify">
+            <p className="py-6 text-sm md:text-base xl:text-lg text-justify">
               I am a <strong className="uppercase">full stack</strong> web
               developer currently studying at Rajshahi University of Engineering
               and Technology ( RUET ) in Rajshahi, Bangladesh. I am in my{" "}
@@ -74,44 +76,46 @@ const About = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold text-white mb-10 md:mb-12 lg:mb-14 ">
+          <h2 className="text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-[44px] text-center font-bold text-white mb-6 md:mb-10 lg:mb-14 ">
             Quick Profile Overview
           </h2>
-          <div className="space-y-2 font-extrabold text-base md:text-lg lg:text-xl text-slate-400">
+          <div className="space-y-1 md:space-y-2 font-semibold text-sm md:text-base lg:text-base xl:text-lg 2xl:text-xl text-slate-400">
             <h2 className="">
-              <span className=" uppercase text-white mr-1">Name: </span> Md.
-              Abdullah al mamun
+              <span className="uppercase text-white/85 mr-1">Name: </span> Md.
+              Abdullah Al Mamun
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">Designaion: </span>
+              <span className="uppercase text-white/85 mr-1">Designaion: </span>
               Full Stack Developer ( <strong>MERN STACK</strong> )
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">NATIONALITY: </span>{" "}
+              <span className="uppercase text-white/85 mr-1">
+                NATIONALITY:{" "}
+              </span>{" "}
               Bangladeshi
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">ADDRESS: </span>{" "}
-              Rajshahi, bangladesh
+              <span className="uppercase text-white/85 mr-1">ADDRESS: </span>{" "}
+              Rajshahi, Bangladesh
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">PHONE: </span> +880
+              <span className="uppercase text-white/85 mr-1">PHONE: </span> +880
               1745093497
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">E-MAIL: </span>{" "}
+              <span className="uppercase text-white/85 mr-1">E-MAIL: </span>{" "}
               1154almamun@gmail.com
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">Languages: </span>{" "}
+              <span className="uppercase text-white/85 mr-1">Languages: </span>{" "}
               English,Bangla,Hindi
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">Education: </span>{" "}
+              <span className="uppercase text-white/85 mr-1">Education: </span>{" "}
               Computer Science & Engineering ( <strong>3rd year</strong> )
             </h2>
             <h2 className="">
-              <span className=" uppercase text-white mr-1">University: </span>{" "}
+              <span className="uppercase text-white/85 mr-1">University: </span>{" "}
               Rajshahi University of Engineering and Technology (RUET) Rajshahi,
               Bangladesh
             </h2>
