@@ -63,7 +63,7 @@ const About = () => {
               I am a <strong className="uppercase">full stack</strong> web
               developer currently studying at Rajshahi University of Engineering
               and Technology ( RUET ) in Rajshahi, Bangladesh. I am in my{" "}
-              <strong>3rd year</strong> in the Department of{" "}
+              <strong>4th year</strong> in the Department of{" "}
               <strong>Computer Science and Engineering</strong> . I work with
               the <strong>MERN</strong> stack environment and primarily use the{" "}
               <strong>ReactJS</strong> and <strong>NextJS</strong> framework to
@@ -108,11 +108,11 @@ const About = () => {
             </h2>
             <h2 className="">
               <span className="uppercase text-white/85 mr-1">Languages: </span>{" "}
-              English,Bangla,Hindi
+              English, Bangla, Hindi
             </h2>
             <h2 className="">
               <span className="uppercase text-white/85 mr-1">Education: </span>{" "}
-              Computer Science & Engineering ( <strong>3rd year</strong> )
+              Computer Science & Engineering ( <strong>4th year</strong> )
             </h2>
             <h2 className="">
               <span className="uppercase text-white/85 mr-1">University: </span>{" "}

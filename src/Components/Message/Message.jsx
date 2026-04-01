@@ -10,6 +10,8 @@ const Message = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    console.log(import.meta.env.VITE_emailJsPublicKey);
+
     console.log(form);
     emailjs
       .sendForm(
@@ -18,7 +20,7 @@ const Message = () => {
         form.current,
         {
           publicKey: import.meta.env.VITE_emailJsPublicKey,
-        }
+        },
       )
       .then(
         () => {
@@ -27,9 +29,10 @@ const Message = () => {
         (error) => {
           console.log(error);
           toast.error(error);
-        }
+        },
       );
   };
+
   return (
     <section id="message" className=" pt-16 lg:pt-32 text-[#fff] ">
       <h2 className="w-full text-center text-2xl md:text-3xl lg:text-4xl font-bold text-txt-color -mb-14">

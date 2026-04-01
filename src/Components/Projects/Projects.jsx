@@ -7,6 +7,7 @@ import firebase from "../../assets/icon/firebase.png";
 import project1 from "../../assets/image/echojournal.png";
 import project2 from "../../assets/image/foodvilla.png";
 import project3 from "../../assets/image/potteryverse.png";
+import project4 from "../../assets/image/pentamart.png";
 import ProjectsCard from "./ProjectsCard";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -17,6 +18,85 @@ const Projects = () => {
         Some of My Projects
       </h2>
       <div className="space-y-5 md:space-y-20 lg:space-y-16 mt-12 md:mt-20 lg:mt-16">
+        <div className="flex gap-3 lg:gap-5 flex-col md:flex-row group rounded-lg p-2 md:p-6 bg-slate-800 ">
+          <div>
+            <img
+              className="w-full h-40 md:w-40 md:h-28 lg:w-72 lg:h-40 rounded-md"
+              src={project4}
+              alt="PentaMart"
+            />
+          </div>
+          <div className="flex-1 space-y-2">
+            <a
+              href="https://www.pentamart.com.bd/"
+              target="_blank"
+              className="group"
+            >
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold border-b flex items-center gap-4 text-white group-hover:text-green-400 duration-200 md:pb-2">
+                PentaMart
+                <FaExternalLinkAlt
+                  size={15}
+                  className="group-hover:scale-125"
+                />
+              </h3>
+            </a>
+            <h3 className="text-base md:text-lg lg:text-xl font-semibold">
+              A Comprehensive Multivendor E-commerce Platform for Seamless
+              Online Shopping
+            </h3>
+            <p className="text-slate-400 text-xs md:text-sm lg:text-base">
+              PentaMart is a comprehensive multivendor e-commerce platform
+              designed for seamless online shopping. It provides a user-friendly
+              interface for customers to browse and purchase products from
+              various sellers. The platform ensures a secure and efficient
+              shopping experience for all users.
+            </p>
+            <div className="flex flex-wrap justify-center md:justify-start gap-5 py-2 md:py-3">
+              <img
+                className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 hover:scale-125 duration-300"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                alt="NextJS"
+              />
+
+              <img
+                className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 hover:scale-125 duration-300"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                alt="TypeScript"
+              />
+
+              <img
+                className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 hover:scale-125 duration-300"
+                src={express}
+                alt="ExpressJS"
+              />
+
+              <img
+                className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 hover:scale-125 duration-300"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg"
+                alt="Redis"
+              />
+              <svg
+                className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 hover:scale-125 duration-300"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  fill="#2d7070"
+                  d="M66.457.014a6.308 6.308 0 0 0-5.812 3.028l-47.87 78.072a6.379 6.379 0 0 0 .048 6.748l23.568 37.186a6.387 6.387 0 0 0 7.22 2.683l68.012-20.407a6.37 6.37 0 0 0 3.96-8.765l-43.72-94.85A6.298 6.298 0 0 0 66.46.014Zm1.795 23.95a2.348 2.348 0 0 1 2.448 1.433l30.16 69.784a2.39 2.39 0 0 1-1.512 3.241l-46.996 14.024a2.39 2.39 0 0 1-3.024-2.76l16.83-83.812a2.353 2.353 0 0 1 2.099-1.91z"
+                ></path>
+              </svg>
+              <img
+                className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 hover:scale-125 duration-300"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                alt="PostgreSQL"
+              />
+            </div>
+            <div className="flex justify-start gap-6">
+              <p className="btn btn-sm font-bold  bg-white group-hover:text-green-950 group-hover:scale-110 group-hover:bg-green-100 duration-200 text-[#000]">
+                Backend Developer
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="flex gap-3 lg:gap-5 flex-col md:flex-row group rounded-lg p-2 md:p-6 bg-slate-800 ">
           <div>
             <img
