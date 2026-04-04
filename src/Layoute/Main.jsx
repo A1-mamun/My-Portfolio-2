@@ -7,6 +7,7 @@ import MobileNavbar from "../Components/Navbar/MobileNavbar";
 import Navbar from "../Components/Navbar/Navbar";
 import Projects from "../Components/Projects/Projects";
 import Skills from "../Components/Skills/Skills";
+import Experience from "../Components/Experience/Experience";
 
 const Main = () => {
   return (
@@ -23,6 +24,7 @@ const Main = () => {
           <div className="lg:col-span-4 2xl:col-span-3">
             <About />
             <Skills />
+            <Experience />
             <Projects />
             <Message />
           </div>

@@ -97,11 +97,11 @@ const Skills = () => {
       <h2 className="text-center text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-[44px] font-bold text-white">
         Soft Skills
       </h2>
-      <div className="flex gap-3 my-7 md:my-16 lg:my-20">
-        <h3 className="text-base md:text-lg lg:text-xl font-semibold text-slate-400">
+      <div className="grid grid-cols-4 gap-3 my-7 md:my-16 lg:my-20">
+        <h3 className="col-span-1 text-base md:text-lg lg:text-xl font-semibold text-slate-400">
           Campus Ambassador:
         </h3>
-        <div className="lg:flex-1 space-y-1 font-medium">
+        <div className="col-span-3 lg:flex-1 space-y-1 font-medium">
           <p className="text-base md:text-lg lg:text-xl font-medium text-white">
             Works as a Campus Ambassador of <strong>Programming Hero</strong>
           </p>

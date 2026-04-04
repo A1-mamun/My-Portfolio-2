@@ -83,6 +83,27 @@ const Navbar = () => {
       </li>
       <li className="group">
         <a
+          onClick={() => scrollToSection("experience")}
+          className="px-2 py-1 flex items-center gap-3"
+        >
+          <div
+            className={`border group-hover:border-white h-[1px] group-hover:w-14 duration-200 ${
+              activeSection === "experience"
+                ? "w-14 duration-200 "
+                : "border-slate-500  w-7 "
+            }`}
+          ></div>
+          <p
+            className={`font-medium group-hover:text-white  ${
+              activeSection === "experience" ? "text-white" : "text-slate-500"
+            }`}
+          >
+            Experience
+          </p>
+        </a>
+      </li>
+      <li className="group">
+        <a
           onClick={() => scrollToSection("projects")}
           className="px-2 py-1 flex items-center gap-3"
         >
